@@ -65,3 +65,7 @@ dependencies {
     liquibase 'org.liquibase:liquibase-core:3.5.3',
             "com.microsoft.sqlserver:mssql-jdbc:${mssqlJdbcVersion}"
 }
+
+bootJar {
+    baseName = "starling-roundup"
+}
